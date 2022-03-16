@@ -1,0 +1,33 @@
+Los ficheros aquí obtenidos se lograron siguendo los siguientes pasos:
+
+OK biblioteca.xml y que esté bien formado
+OK generar el esquema .xsd
+OK validar con ese esquema
+OK asociar un .css para verlo mejor en pantalla
+OK crear un xslt para generar un html
+OK asociar un .css   (insertarlo como código en el head del .xsl)
+OK visualizar con XAMPP (localhost)
+
+La grabación está disponible,
+
+
+
+1.CSS - al visualizar el XML en el navegador, cada elemento libro se mostrará como un bloque de 300 puntos de ancho fijo   ok	
+
+2.CSS - Si el viewport fuera menor de 300 puntos, al ver el XML en el navegador no se mostrará nada	ok
+
+3.CSS - Si el viewport fuera menor de 300 puntos, al ver el XML en el navegador se mostrará el texto "Viewport muy estrecho"	
+
+4.XML - Cambiar el contenido del campo titulo según lo que vean en la imagen (ejemplo: "Las siestas de Senda"	ok
+
+5.XML - Añadir como primer elemento de cada libro un campo <foto> para poder mostrar arriba en cada bloque la imagen facilitada	ok
+
+6.XML - Deberá validar contra el XSD facilitado. Para ello, si fuera necesario añadir campos, en cuyo caso también deberás mostrarlos al visualizar el XML en el navegador. ((al final del ejercicio))	
+
+7.CSS - Al visualizar el XML en el navegador, pinchando enmedio de dos elementos cambie el orden de visualización, o sea desde el último hasta el primero.	ok
+
+8.CSS - Al visualizar el XML en el navegador, al pasar el ratón sobre un título ésta se verá un 20% más grande.	ok
+
+9.CSS - Al visualizar el XML en el navegador, al pinchar en una foto ésta se verá en blanco y negro   ok	
+
+10.CSS - Al visualizar el XML en el navegador, al pinchar en una foto se verá una sombra (elige tú cómo prefieras hacer ese efecto). ok
