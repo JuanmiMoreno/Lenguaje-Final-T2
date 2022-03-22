@@ -1,6 +1,7 @@
 #contenedor{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     
@@ -15,10 +16,26 @@
     flex-direction: column;
     margin: 20px;
     
+
+    
 }
-img{
+
+.foto{
     width: 100%;
+    position: relative;
+    top:0;
+    left:0;
+    object-fit: cover;
 }
+
+#fondo{
+    width: 100%;
+    top:0px;
+    position:relative;
+    
+    
+}
+
 h3{
     display: none;
 }
@@ -27,15 +44,25 @@ h2:hover{
     transform: scale(1.2);
     color: darkcyan;
 }
-
-img:active {
-
+.sombra{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
     
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-box-shadow: 10px 10px 15px;
-
 }
+.foto:hover {   
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    }
+
+.foto:active {   
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    z-index: -1;
+    transform: scale(1,-0.5) translate(20%,-50%) skewX(15deg) ;
+}
+
 
 #contenedor:active {
     display: flex;

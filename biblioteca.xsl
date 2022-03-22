@@ -23,19 +23,26 @@
        
   <xsl:template match="libro">
   	<div class="libro">
-  		<img>
-					<xsl:attribute name="src">
-  		<xsl:value-of select="imagen"/>
-  		</xsl:attribute>
-  		</img>
-     <p>
-     <xsl:value-of select="autor"/>
-     </p>
-     <h2>
-     <xsl:value-of select="titulo"/>
-     </h2> 
+  		<div id= "fondo" >
+  			<img class="sombra">
+				<xsl:attribute name="src">
+  				<xsl:value-of select="imagen"/>
+  				</xsl:attribute>
+  			</img >
+  			<img class="foto">
+	  			<xsl:attribute name="src">
+  				<xsl:value-of select="imagen"/>
+  				</xsl:attribute>
+  			</img>
+  		</div>
+     	<p>
+     	<xsl:value-of select="autor"/>
+    	 </p>
+    	 <h2>
+     	<xsl:value-of select="titulo"/>
+     	</h2> 
+     	</div>
      
-     </div>
     
   </xsl:template>
 
